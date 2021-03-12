@@ -1,0 +1,42 @@
+/* this is for header */
+.header{
+  height:400px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  background-color: #00c8d6;
+}
+
+/* the parent element for both header and main */
+.wrapper{
+  display:flex;
+}
+
+/* when screen width is changed: */
+@media only screen and (max-width: 610px){
+  .wrapper{
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 610px){
+  .header{
+    width:40%;
+    margin-top:80px;
+    margin-left:40px;
+    margin-right:40px;
+    display:flex;
+  }
+  
+  .header div img{
+    width:100%;
+  }
+  .container{
+    margin-top: 80px;
+    width:50%;
+  }
+ .new-tweet{
+   margin-right:30px;
+ } 
+}
