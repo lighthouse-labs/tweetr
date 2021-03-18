@@ -1,0 +1,33 @@
+/* these are for navigator and elements of navigator */
+
+nav{
+  height:120px;
+  background-color: #4056A1;
+  color:#FFFFFF;
+  display:flex;
+  justify-content: space-between;
+  position:fixed;
+  top:0; 
+  width:100%;
+  overflow:hidden;
+  z-index:99;
+}
+nav span {
+  /* border: 3px solid black; */
+  font-family: 'Bungee', cursive; 
+  padding:1.5em;
+}
+
+nav div{
+  font-family: 'Source Sans Pro','sans-serif';
+  padding: 1.5em;
+}
+
+nav div button{
+  background:transparent;
+  color:white;
+  border:none;
+}
+nav div button:hover{
+  cursor: pointer;
+}
